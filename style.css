@@ -16,6 +16,9 @@ body::-webkit-scrollbar{
  font-size: 1.05rem;
  color: #005330;
 }
+#menu-btn{
+    display: none;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -416,6 +419,14 @@ body::-webkit-scrollbar{
 /* 425px width */
 
 @media (max-width: 427px) {
+    
+    #menu-btn{
+        display: inline-block;
+        font-size: 2.5rem;
+        cursor: pointer;
+        color: white;
+        margin-right: 7%;
+    }
     .header{
         height: 18.7vw;
     }
