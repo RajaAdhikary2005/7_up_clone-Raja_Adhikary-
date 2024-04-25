@@ -520,7 +520,12 @@ body::-webkit-scrollbar{
         margin-right: 0;
         display: none;
     }
-
+    #first-img{
+        width: 102%;
+    }
+    #second-img{
+        width: 102%;
+    }
     .images img {
         width: 60px; 
         height: auto;
@@ -533,7 +538,7 @@ body::-webkit-scrollbar{
     }
 
     .video-part {
-        width: 100%;
+        width: 102%;
         height: 40%;
     }
 
@@ -580,6 +585,9 @@ body::-webkit-scrollbar{
 
     #icon {
         font-size: 15px;
+    }
+    #footer{
+        width: 102%;
     }
 }
 
