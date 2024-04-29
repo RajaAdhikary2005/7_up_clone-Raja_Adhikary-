@@ -433,6 +433,7 @@ body::-webkit-scrollbar{
     .header .navbar ul {
         gap: 15px;
         margin-right: 10px;
+        display: none;
     }
 
     .images img {
