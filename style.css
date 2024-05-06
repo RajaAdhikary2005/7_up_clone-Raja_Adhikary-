@@ -409,7 +409,7 @@ body::-webkit-scrollbar{
         font-size: 20px;
     }
     .next-part {
-        background-size: contain;
+        background-size: cover;
         height: 44.5vh;
     }    #footer {
         background-position-x: 28%;
@@ -594,7 +594,7 @@ body::-webkit-scrollbar{
         width: 102%;
     }
     .next-part{
-        height: 25vw;
+        height: 56vw;
     }
 }
 
